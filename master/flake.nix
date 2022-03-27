@@ -11,6 +11,7 @@
   inputs.src-nimcb-master.ref   = "refs/heads/master";
   inputs.src-nimcb-master.owner = "AdrianV";
   inputs.src-nimcb-master.repo  = "nimcb";
+  inputs.src-nimcb-master.dir   = "";
   inputs.src-nimcb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
